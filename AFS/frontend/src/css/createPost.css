@@ -1,0 +1,45 @@
+
+
+
+
+.create-post-container h1 {
+    text-align: center;
+    font-size: 48px;
+    color: rgb(2, 2, 94);
+}
+
+
+.title-input {
+    height: 50px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 40px ;
+    font-size: 20px;
+}
+
+.post-button {
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+} 
+.post-button:hover{
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+    background-color: #720e9e;
+}
+
+.content-input{
+    height: 300px;
+    width: 100%;
+}

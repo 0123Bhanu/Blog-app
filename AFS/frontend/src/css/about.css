@@ -1,0 +1,48 @@
+/* Styles for the back button */
+.about-back-button {
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    background-color: #48A300;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Add transition */
+}
+
+.about-back-button:hover {
+    background-color: #3c7f00; /* Darken button on hover */
+    transform: translateY(-2px); /* Move button slightly up on hover */
+}
+
+/* Styles for the heading */
+.about-heading {
+    color: #0e1064;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add text shadow */
+}
+
+/* Styles for the video player */
+.about-video-player {
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border-radius: 10px; /* Add border radius */
+}
+
+/* Styles for the "Made with" section */
+.made-with {
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic; /* Add italic style */
+    color: #888; /* Lighter color */
+}
+
+.made-with::before {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #48A300; /* Match button color */
+}
